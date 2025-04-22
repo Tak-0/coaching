@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: gray;
+}
+
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    
+    
+}
+
+.nav-links li {
+    padding-left: 20px;
+    text-decoration: none;
+}   
