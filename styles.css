@@ -142,13 +142,13 @@ hr {
 }
 
 
-.about-us-heading, .coach-heading {
+.about-us-heading, .coach-heading, .fnf-heading {
     text-align: center;
     margin: 30px 0;
 }   
 
 
-.about-us-p, .coach-p {
+.about-us-p, .coach-p, .fnf-p {
     margin: 30px;
     border: 3px solid;
     border-radius: 50px;
@@ -156,3 +156,13 @@ hr {
        
 }
 
+.fnf-image-container {
+    text-align: center;
+    margin: 0 auto;
+    width: 60%
+}
+
+.fnf-image {
+    margin-top: 10px;
+    width: 100%;
+}
