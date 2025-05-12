@@ -144,6 +144,20 @@ hr {
        
 }
 
+.coach-images {
+    text-align: center;
+    margin: 20px;
+
+}
+
+.coach-cham-image {
+    border-radius: 30%;
+    height: 400px;
+    margin: 10px;
+} 
+
+
+
 .fnf-image-container {
     text-align: center;
     margin: 0 auto;
