@@ -154,6 +154,8 @@ hr {
     border-radius: 30%;
     height: 50vh;
     margin: 10px;
+    width: auto;
+    max-width: 100%;
 } 
 
 
