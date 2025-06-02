@@ -130,7 +130,7 @@ hr {
 }
 
 
-.about-us-heading, .coach-heading, .fnf-heading {
+.about-us-heading, .coach-heading, .fnf-heading, .students-heading {
     text-align: center;
     margin: 30px 0;
 }   
@@ -148,6 +148,23 @@ hr {
     text-align: center;
     margin: 20px;
 
+}
+
+.coach-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.coach-name {
+    padding: 20px;
+    background-color: gray;
+    border-radius: 20px;
+    
+}
+
+.coach-name:hover {
+    background-color: rgb(212, 209, 209);
 }
 
 .coach-cham-image {
@@ -172,9 +189,19 @@ hr {
 }
 
 
+.student-box {
+    display: flex;
+    height: 200px;
+    max-width: 500px;
+    background-color: grey;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px;
+}
 
-
-
+.student-photo {
+    height: 100%;
+}
 
 .social-img {
     width: 80px;
