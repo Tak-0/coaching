@@ -191,23 +191,59 @@ hr {
 
 .student-box {
     display: flex;
-    height: 200px;
+    height: 250px;
     max-width: 500px;
     background-color: grey;
     padding: 10px;
     border-radius: 10px;
     gap: 10px;
+    margin: 10px;
+   
+}
+
+.student-box p {
+    max-height: 100%;
+}
+
+.students-content {
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
 }
 
 .student-photo {
     height: 100%;
 }
 
+
+.contact-us-hero {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(65, 65, 51);
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.qr-code {
+    width: 300px;
+}
+
+.qr-code p {
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.qr-code img {
+    width: 100%;
+}
+
 .social-img {
     width: 80px;
     padding-right: 20px;
-    
-    
     
 
 }
