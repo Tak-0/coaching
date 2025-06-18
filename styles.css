@@ -16,7 +16,9 @@ header {
 }
 
 
-
+.logo-image {
+    width: 150px;
+}
 
 .nav-links {
     display: flex;
@@ -188,11 +190,33 @@ hr {
     width: 100%;
 }
 
+.student-options {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.student-option-button {
+    padding: 20px;
+    background-color: gray;
+    border-radius: 20px;
+    
+}
+
+.youth-students, .adult-students {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.student-option-button:hover {
+    background-color: rgb(212, 209, 209);
+}
+
 
 .student-box {
     display: flex;
     height: 250px;
-    max-width: 500px;
+    width: 500px;
     background-color: grey;
     padding: 10px;
     border-radius: 10px;
