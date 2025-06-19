@@ -5,10 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coach</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
 </head>
 <body>
     <header>
-        <h2 class="logo"><a href="index.html">FwC <h6>Fitness with <br><i><u>Cham</u></i>pions</h6></a></h2>
+        <a href="index.html"><img src="new logo 2.jpg" alt="logo" class="logo-image"></a>
+
+        <span class="material-symbols-outlined" onclick="toggleMenu()">
+        menu 
+        </span>
         <ul class="nav-links">
             <li><a href="about-us.html">About Us</a></li>
             <li><a href="coach.html">Coaches</a></li>
@@ -67,5 +72,10 @@
         Coach K.Cham is the perfect mix between sports & science to enhance your performance to really make the difference on match day.
     </p>
 
+    <script>
+        function toggleMenu() {
+            document.querySelector(".nav-links").classList.toggle("show");
+        }
+    </script>
 </body>
 </html>

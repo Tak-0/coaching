@@ -40,6 +40,30 @@ header {
     color: white;
 }
 
+
+.material-symbols-outlined {
+        display: none !important;
+    }
+
+
+.nav-links.show {
+        display: block;
+        flex-direction: column;
+    }
+
+@media (max-width: 700px) {
+    .nav-links {
+        display: none;
+    }
+    .material-symbols-outlined {
+        display: block !important;
+    }
+
+    
+
+
+}
+
 .hero {
     width: 100%;
     padding: 30px;

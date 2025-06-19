@@ -5,10 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FnF</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
 </head>
 <body>
     <header>
-        <h2 class="logo"><a href="index.html">FwC <h6>Fitness with <br><i><u>Cham</u></i>pions</h6></a></h2>
+        <a href="index.html"><img src="new logo 2.jpg" alt="logo" class="logo-image"></a>
+
+        <span class="material-symbols-outlined" onclick="toggleMenu()">
+        menu 
+        </span>
         <ul class="nav-links">
             <li><a href="about-us.html">About Us</a></li>
             <li><a href="coach.html">Coaches</a></li>
@@ -27,6 +32,19 @@
 
     </p>
 
+    <h3 style="text-align: center; margin-bottom: 5px;">
+        Types of Group sessions
+    </h3>
+    <ul style="text-align: center;">
+        <li style="margin: 10px;">Football Club sessions</li>
+        <li style="margin: 10px;">School Group sessions</li>
+        <li style="margin: 10px;">Colleague Group sessions</li>
+        <li style="margin: 10px;">Youth Group sessions</li>
+        <li style="margin: 10px;">Under 10s Group sessions</li>
+        <li style="margin: 10px;">Over 30s sessions</li>
+    </ul>
+
+    <br><br>
 
     <div class="fnf-image-container">
         <h4 class="fnf-subheading">
@@ -45,13 +63,17 @@
         <h4 class="fnf-subheading">
             Over 16s Sessions
         </h4>
-        <img src="over16image.jpg" alt="Players warming up" class="fnf-image">
+        <img src="over16image2.jpg" alt="Players warming up" class="fnf-image">
     </div>
     <p class="fnf-p">
         Strength & conditioning, Tabata sprints, interval training, interval sprints, incline sprints, ball work under high pressure, breaking down a low block, crosses, finishes, off the ball movement, creating space, tracking runners as well as many more activities to develop onto that higher stage.
 
     </p>
 
-
+    <script>
+        function toggleMenu() {
+            document.querySelector(".nav-links").classList.toggle("show");
+        }
+    </script>
 </body>
 </html>
