@@ -51,7 +51,7 @@ header {
         flex-direction: column;
     }
 
-@media (max-width: 700px) {
+@media (max-width: 850px) {
     .nav-links {
         display: none;
     }
@@ -156,7 +156,7 @@ hr {
 }
 
 
-.about-us-heading, .coach-heading, .fnf-heading, .students-heading, .career-heading {
+.about-us-heading, .coach-heading, .fnf-heading, .students-heading, .career-heading, .contact-heading {
     text-align: center;
     margin: 30px 0;
 }   
@@ -300,10 +300,12 @@ hr {
     background-color: rgb(65, 65, 51);
     flex-wrap: wrap;
     gap: 50px;
+    flex-direction: column;
 }
 
 .qr-code {
     width: 300px;
+    
 }
 
 .qr-code p {
@@ -316,9 +318,15 @@ hr {
     width: 100%;
 }
 
+.social-links {
+    display: flex;
+    justify-content: center;
+}
+
+
 .social-img {
-    width: 80px;
-    padding-right: 20px;
+    width: 65px;
+
     
     
 
@@ -328,17 +336,11 @@ hr {
 
 
 .social-a {
-    display: flex;
-    align-items: center;
-    border: 3px solid;
-    border-radius: 50px;
-    padding: 20px 30px;
+    padding: 10px;
     
 
 }
 
-.social-a:hover {
-    background-color: gray;
-}
+
 
 
